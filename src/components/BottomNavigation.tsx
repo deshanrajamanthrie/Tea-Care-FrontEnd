@@ -17,11 +17,11 @@ const BottomNavigation: React.FC = () => {
       icon: () => <div className="text-xl">🏠</div>,
       label: "Farm",
     },
-    {
-      key: "/explore",
-      icon: () => <div className="text-xl">🌱</div>,
-      label: "Learn",
-    },
+    // {
+    //   key: "/explore",
+    //   icon: () => <div className="text-xl">🌱</div>,
+    //   label: "Learn",
+    // },
     {
       key: "/notifications",
       icon: () => <div className="text-xl">📊</div>,
